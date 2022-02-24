@@ -1,0 +1,20 @@
+{
+    "name": "mohamed/common",
+    "description": "This is a common package shared between influencer app microservices",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mohamed\\Common\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohamedalaa253695",
+            "email": "mohamedalaa253695@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework":"^8.0"
+    }
+}
