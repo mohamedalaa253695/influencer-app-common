@@ -1,15 +1,13 @@
 <?php
 namespace influencerMicroservices;
 
-
-
-
 class UserService
 {
     private $endpoint;
 
-    public function __construct(){
-        $this->endpoint = enf('USERS_ENDPOINT');
+    public function __construct()
+    {
+        $this->endpoint = env('USERS_ENDPOINT');
     }
 
     public function headers()
