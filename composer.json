@@ -1,5 +1,5 @@
 {
-    "name": "mohamed/common",
+    "name": "influencer/common",
     "description": "This is a common package shared between influencer app microservices",
     "type": "library",
     "license": "MIT",
