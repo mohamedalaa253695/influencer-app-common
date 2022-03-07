@@ -1,5 +1,5 @@
 <?php
-namespace influencerMicroservices;
+namespace InfluencerMicroservices;
 
 class User
 {
@@ -18,7 +18,6 @@ class User
         $this->is_influencer = $json['is_influencer'] ?? 0;
     }
 
-   
     public function isAdmin() :bool
     {
         return $this->is_influencer === 0;
@@ -29,7 +28,6 @@ class User
         return $this->is_influencer === 1;
     }
 
- 
     public function fullName()
     {
         return $this->first_name . ' ' . $this->last_name;

@@ -1,5 +1,5 @@
 <?php
-namespace influencerMicroservices;
+namespace InfluencerMicroservices;
 
 class UserService
 {

@@ -1,5 +1,5 @@
 <?php
-namespace influencerMicroservices;
+namespace InfluencerMicroservices;
 
 use Closure;
 use Illuminate\Auth\AuthenticationException;
