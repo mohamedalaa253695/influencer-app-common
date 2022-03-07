@@ -1,6 +1,9 @@
 <?php
 namespace InfluencerMicroservices;
 
+use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Http;
+
 class UserService
 {
     private $endpoint;
